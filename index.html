@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ご意見受付けフォーム</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+ 	<form action="confirm.php" method="post">
+ 		<h2>ご意見受付けフォーム</h2>
+
+		 <h2>公開しているポートフォリオについてご意見をお聞かせ下さい</h2>
+
+	 	<div class="input-area">
+		 	<p>ポートフォリオの完成度は？</p>
+			<label><input type="checkbox" name="evaluation" value="とても低い" >とても低い</label>
+			<label><input type="checkbox" name="evaluation" value="低い" >低い</label>
+			<label><input type="checkbox" name="evaluation" value="中程度" >中程度</label>
+			<label><input type="checkbox" name="evaluation" value="高い" >高い</label>
+			<label><input type="checkbox" name="evaluation" value="とても高い" >とても高い</label>
+		</div>
+
+		<div class="input-area2">
+		 	<p>ポートフォリオのオリジナリティは？</p>
+			 <label><input type="checkbox" name="originality" value="とても低い" >とても低い</label>
+			<label><input type="checkbox" name="originality" value="低い" >低い</label>
+			<label><input type="checkbox" name="originality" value="中程度" >中程度</label>
+			<label><input type="checkbox" name="originality" value="高い" >高い</label>
+			<label><input type="checkbox" name="originality" value="とても高い" >とても高い</label></label>
+		</div>
+
+		<div class="input-area3">
+		 	<p>ポートフォリオの見やすさは？</p>
+			<label><input type="checkbox" name="appearance" value="とても見にくい">とても見にくい</label>
+			<label><input type="checkbox" name="appearance" value="見にくい" >見にくい</label>
+			<label><input type="checkbox" name="appearance" value="中程度" >中程度</label>
+			<label><input type="checkbox" name="appearance" value="見やすい" >見やすい</label>
+			<label><input type="checkbox" name="appearance" value="とても見やすい" >とても見やすい</label>
+		</div>	
+		<div class="input-area">
+	 		<p>その他ご意見</p>
+	 		<textarea name="opinion_body" rows="6" placeholder="ご意見をお聞かせ下さい"></textarea>
+		</div>
+	 	<div class="input-area">
+	 		<input type="submit" name="submit" value="確認画面へ" class="btn-border">
+	 	</div>
+	</form>
+</body>
+</html>
